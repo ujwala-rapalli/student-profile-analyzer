@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Analyzer</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS for styling -->
+</head>
+<body>
+    <h1>AI-powered Student Profile Analyzer</h1>
+    <form id="profileForm">
+        <label for="gpa">GPA: <input type="text" id="gpa" required></label><br>
+        <label for="sat">SAT Score: <input type="text" id="sat" required></label><br>
+        <label for="extracurriculars">Extracurriculars: <input type="text" id="extracurriculars" required></label><br>
+        <label for="leadership">Leadership: <input type="text" id="leadership" required></label><br>
+        <button type="button" onclick="analyzeProfile()">Analyze Profile</button>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script> <!-- Link to JavaScript file for functionality -->
+</body>
+</html>
