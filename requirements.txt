@@ -1,5 +1,4 @@
-Flask
-flask-cors
+streamlit
 scikit-learn
 pandas
 numpy
